@@ -17,13 +17,24 @@ h1, h2 {
     color:#190B28;
     font-family: nunito, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;}
+    letter-spacing: 4px;
+    text-decoration: none;
+   
+}
 
     #logolunar {
-        text-align: center;
-        font-size:350%;
+        margin: 0 auto;
+        float: none;
+        font-size:340%;
+        width: 450px;
+        display: block;
+        margin-top: 5px;
+        padding: 10px;
+        
+       
+         }
 
-    }
+
     /*menu navigation links*/
     
     #menunav {
@@ -34,10 +45,28 @@ h1, h2 {
         list-style-type:none;
         float: right;
         letter-spacing: 5px;
-        margin-right: 20px;
+        margin-right: 20px;}
+        
 
-
+    #menunav a {
+        text-decoration: none;
+        color: inherit;
+    
     }
+    #menunav a:hover {
+        display: inline-block;
+        border-bottom: 2px solid #FF82A9;
+        border-radius: 2px;
+        padding: 2px;
+    }
+    
+        
+    
+
+    
+
+
+    
     
     
     
