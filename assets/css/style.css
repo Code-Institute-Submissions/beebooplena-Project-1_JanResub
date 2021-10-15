@@ -6,6 +6,29 @@
     border: none;}
     
 body {
-    font-family:nunito, sans-serif;
+    font-family:playfair, sans-serif;
     font-weight: 300;
+    color:#605B56;
 }
+
+/*logo and headings*/
+
+h1, h2 {
+    color:#190B28;
+    font-family: nunito, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;}
+
+    #logolunar {
+        text-align: center;
+        font-size:350%;
+
+    }
+    
+    
+    
+    
+
+
+
+    
