@@ -18,7 +18,7 @@ h1, h2 {
     font-family: nunito, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-decoration: none;
+    
    
 }
 
@@ -30,9 +30,9 @@ h1, h2 {
         display: block;
         margin-top: 5px;
         padding: 10px;
+        text-decoration: default;
         
-       
-         }
+       }
 
 
     /*menu navigation links*/
