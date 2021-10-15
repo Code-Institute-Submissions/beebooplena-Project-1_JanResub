@@ -25,14 +25,22 @@ h1, h2 {
     #logolunar {
         margin: 0 auto;
         float: none;
-        font-size:340%;
+        font-size:350%;
         width: 450px;
         display: block;
-        margin-top: 5px;
-        padding: 10px;
+        margin-top: 5px;}
         
         
-       }
+        
+       
+    #mirror {
+        background-color:#F0F7EE;
+        
+        
+        overflow: hidden; }
+   
+    
+    
 
 
     /*menu navigation links*/
@@ -66,7 +74,7 @@ h1, h2 {
     #lunar-out {
         height: 550px;
         width: 100%;
-        overflow: hidden;
+        overflow:hidden;
 
        
 
