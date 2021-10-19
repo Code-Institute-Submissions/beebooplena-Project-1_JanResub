@@ -6,10 +6,10 @@
     border: none;}
     
 body {
-    font-family:playfair, sans-serif;
+    font-family:nunito, sans-serif;
     font-weight: 300;
     color:#605B56;
-    background-color:#F0F7EE;
+    
 }
 
 /*logo and headings*/
@@ -30,7 +30,8 @@ h1, h2 {
         width: 450px;
         display: block;
         margin-top: 5px;
-       padding: 15px;}
+       padding: 15px;
+       }
 
        #hidden {
         
@@ -38,6 +39,7 @@ h1, h2 {
         font-size:350%;
         width: 300px;
         display: block;
+        background-color:#F0F7EE;
         
         text-align: left;
         
@@ -57,7 +59,8 @@ h1, h2 {
        
     #mirror {
     
-        overflow: hidden; }
+        overflow: hidden;
+        background-color:#F0F7EE; }
    
     
     
@@ -113,6 +116,7 @@ h1, h2 {
         animation-fill-mode:forwards;
         
     }
+    /* I got inspired by love running, and used the zoom animation code in my project*/
     /*zoom for lunar head image*/
     @keyframes lunar-zoom {
       from { transform: scale(1);
@@ -124,7 +128,8 @@ h1, h2 {
 
 
     }
-        
+
+ 
     
         
     
@@ -157,10 +162,28 @@ h1, h2 {
         text-align: left;
        
     }
-  table, td {
-    border-bottom: 1px solid #ddd;
+  table td {
+    border-bottom: 1px solid rgb(59, 56, 56);
+    
     
   }
+  
+
+     /*footer*/
+ footer {
+    height: 100px;
+    background-color:#F0F7EE;
+}
+   .youtube-link li {
+       text-align: center;   
+   }
+
+   .youtube-link i {
+       padding: 20px;
+       margin-top: 15px;
+       font-size: 200%;
+   }
+       
        
     
     
