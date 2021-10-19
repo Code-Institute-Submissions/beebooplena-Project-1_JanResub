@@ -9,13 +9,14 @@ body {
     font-family:nunito, sans-serif;
     font-weight: 300;
     color:#605B56;
+    background-color:#F0F7EE;
     
 }
 
 /*logo and headings*/
 
 h1, h2 {
-    color:#190B28;
+    color:#4c3549;
     font-family: nunito, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -29,8 +30,8 @@ h1, h2 {
         font-size:350%;
         width: 450px;
         display: block;
-        margin-top: 5px;
-       padding: 15px;
+        margin-top: 2px;
+       padding-top: 15px;
        }
 
        #hidden {
@@ -60,7 +61,7 @@ h1, h2 {
     #mirror {
     
         overflow: hidden;
-        background-color:#F0F7EE; }
+        background-color:#87bba2; }
    
     
     
@@ -172,7 +173,8 @@ h1, h2 {
      /*footer*/
  footer {
     height: 100px;
-    background-color:#F0F7EE;
+   
+    background-color: #87bba2;
 }
    .youtube-link li {
        text-align: center;   
