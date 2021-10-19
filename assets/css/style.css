@@ -9,6 +9,7 @@ body {
     font-family:playfair, sans-serif;
     font-weight: 300;
     color:#605B56;
+    background-color:#F0F7EE;
 }
 
 /*logo and headings*/
@@ -55,9 +56,7 @@ h1, h2 {
         
        
     #mirror {
-        background-color:#F0F7EE;
-        
-        
+    
         overflow: hidden; }
    
     
@@ -110,6 +109,18 @@ h1, h2 {
     }
     
         
+    /*section 2 div style and p style*/
+
+    #welcome {
+        padding: 20px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 150%;
+        
+       
+       
+       
+    }
     
 
     
