@@ -117,10 +117,35 @@ h1, h2 {
         text-align: center;
         font-size: 150%;
         
-       
-       
+        margin-top: 15px;  
        
     }
+
+    /*Timetable*/
+
+    #time {
+        
+        font-size: 100%;
+        
+        display: block;
+    }
+
+    table {
+        width: 20%;
+        height: 120px;
+        
+        text-align: left;
+       
+    }
+  table, td {
+    border-bottom: 1px solid #ddd;
+  }
+       
+    
+    
+    
+        
+     
     
 
     
