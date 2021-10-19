@@ -95,6 +95,7 @@ h1, h2 {
         height: 550px;
         width: 100%;
         overflow:hidden;
+        position: relative;
 
        
 
@@ -103,10 +104,29 @@ h1, h2 {
     #lunar-jpg {
         height: 550px;
         width: 100%;
-        background: url('../images/lunar.jpg'); 
+        background: url('../images/lunar.jpg') no-repeat;
         background-size: cover;
         
+
+        animation-name: lunar-zoom;
+        animation-duration: 3s;
+        animation-fill-mode:forwards;
+        
     }
+    /*zoom for lunar head image*/
+    @keyframes lunar-zoom {
+      from { transform: scale(1);
+
+      }
+      to{ transform: scale(1.05);
+
+      }
+
+
+    }
+        
+    
+        
     
         
     /*section 2 div style and p style*/
@@ -139,6 +159,7 @@ h1, h2 {
     }
   table, td {
     border-bottom: 1px solid #ddd;
+    
   }
        
     
