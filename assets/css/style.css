@@ -188,6 +188,50 @@ h1, h2 {
        
        
     
+    /*form*/
+
+    #form-img {
+        height: 100%;
+        width: 100%;
+        
+        
+    }
+
+    #form-img img {
+        width: 100%;
+        background: no-repeat cover center;
+        position: relative;
+    }
+
+    
+    
+    
+
+    #form {
+        
+        height: 400px;
+        width: 450px;
+        
+        padding:30px 40px 30px 40px;
+        
+       position: absolute;
+       background-color:#a8d0b6;
+       opacity: 0.6;
+       bottom: 30px;
+       right: 900px;
+       border-radius: 20px;
+       
+       
+    
+        
+
+    }
+    
+    
+    
+   
+
+    
     
     
         
