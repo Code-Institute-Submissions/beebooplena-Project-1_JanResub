@@ -30,23 +30,22 @@
        <div id="form-img">
            <img src="assets/images/sign-up.JPG" alt="Lunar waiting outside the door"> </div>
 
-           <div id="form">
-            <form  method="post" action="#"> 
+           <div class="form">
+            <form  method="get" action="#"> 
                 <h2>Sign up!</h2>
-                <label for="firstname">First Name</label>
-                <input id="firstname" name="first-name" required type="text" placeholder="First Name">
-    
-                <label for="lastname">Last Name</label>
+               <div > <label class="label-first" for="firstname">First Name</label>
+                <input  id="firstname" name="first-name" required type="text" placeholder="First Name">
+            </div>
+               <div> <label for="lastname">Last Name</label>
                 <input id="lastname" name="last-name" required type="text" placeholder="Last Name">
-    
-                <label for="email">Email Address</label>
+            </div>
+               <div> <label for="email">Email Address</label>
                 <input id="email" name="email-address" required type="text" placeholder="Email Address">
-    
-                <label for="birthdate">Date of Birth</label>
-                <input id="birthdate" name="birth-date" type="date">
-    
-                <input type="submit" value="Register">
-                
+            </div>
+               
+            <div>
+                <input id="submit" type="submit" value="Register">
+            </div> 
             </form>
            </div>
 

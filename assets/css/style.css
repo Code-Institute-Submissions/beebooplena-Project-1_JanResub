@@ -96,7 +96,7 @@ h1, h2 {
 
     /*lunar-image-main picture*/
     #lunar-out {
-        height: 550px;
+        height: 510px;
         width: 100%;
         overflow:hidden;
         position: relative;
@@ -106,7 +106,7 @@ h1, h2 {
     }
 
     #lunar-jpg {
-        height: 550px;
+        height: 510px;
         width: 100%;
         background: url('../images/lunar.jpg') no-repeat;
         background-size: cover;
@@ -154,15 +154,21 @@ h1, h2 {
         font-size: 100%;
         
         display: block;
+        
     }
 
     table {
         width: 20%;
         height: 120px;
         
+        
         text-align: left;
        
     }
+    #time, table {
+        padding: 10px;
+    }
+    
   table td {
     border-bottom: 1px solid rgb(59, 56, 56);
     
@@ -207,7 +213,7 @@ h1, h2 {
     
     
 
-    #form {
+    .form {
         
         height: 400px;
         width: 450px;
@@ -216,19 +222,57 @@ h1, h2 {
         
        position: absolute;
        background-color:#a8d0b6;
-       opacity: 0.6;
+       opacity: 0.9;
        bottom: 30px;
        right: 900px;
        border-radius: 20px;
-       
-       
+       font-size: 140%;
     
-        
-
     }
     
+    /* label and button*/
+
+    .form input {
+        padding: 5px;
+        
+        
+        
+    }
+    .form div {
+        padding: 10px;
+        display:block;
+        
+    }
+    .form label {
+        opacity: 1;
+        letter-spacing: normal;
+    }
     
+    #firstname {
+        padding: 10px;
+        margin-left: 35px;
+        border-radius: 20px;
+    }
     
+    #lastname {
+        margin-left: 35px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    #email {
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    #submit {
+        padding: 20px;
+        font-size: 90%;
+        border-radius: 20px;
+    }
+    
+    #submit:hover {
+        color:#FF82A9 ;
+    }
    
 
     
