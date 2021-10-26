@@ -1,303 +1,319 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Playfair+Display&display=swap');
 
 
-* { margin: 0;
-    padding:0;
-    border: none;}
-    
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family:nunito, sans-serif;
+    font-family: nunito, sans-serif;
     font-weight: 300;
-    color:#605B56;
-    background-color:#F0F7EE;
-    
+    color: #605B56;
+    background-color: #F0F7EE;
+
 }
 
 /*logo and headings*/
 
-h1, h2 {
-    color:#4c3549;
+h1,
+h2 {
+    color: #4c3549;
     font-family: nunito, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    
-   
+
+
 }
 
-    #logolunar {
-        
-        width: 585px;
-        min-height: auto;
-        margin-top: 10px;
-        margin-left: 440px;
-        font-size: 470%;
-        padding-top: 10px;
-        line-height: 70px;
-        
-        
-        
-       
-       text-align: center;
-       
-       
-       }
+#logolunar {
 
-       #hidden {
-        
-        float: none;
-        font-size:350%;
-        width: 300px;
-        display: block;
-        background-color:#F0F7EE;
-        
-        text-align: left;
-        
-           
+    width: 585px;
 
-       }
-
-       
-
-       
-       
-
-
-        
-        
-        
-       
-    #mirror {
+    margin-top: 10px;
+    margin-left: 440px;
+    font-size: 470%;
+    padding-top: 15px;
     
-        overflow: hidden;
-        background-color:#87bba2; }
-   
-    
-    
+    line-height: 50px;
+    text-align: center;
 
 
-    /*menu navigation links*/
-    
-    #menunav {
-        letter-spacing: 2px;
-        font-size: 140%;
-        
-    }
-    #menunav li {
-        list-style-type:none;
-        float: right;
-        letter-spacing: 5px;
-        margin: 0 20px 30px 0;}
-        
-        
+}
 
-    #menunav a {
-        text-decoration: none;
-        color: inherit;
-    
-    }
-    #menunav a:hover {
-        
-        border-bottom: 2px solid #FF82A9;
-       
-       
-    }
+#hidden {
 
-    /*lunar-image-main picture*/
-    #lunar-out {
-        height: 510px;
-        width: 100%;
-        overflow:hidden;
-        position: relative;
+    float: none;
+    font-size: 350%;
+    width: 300px;
+    display: block;
+    background-color: #F0F7EE;
 
-       
-
-    }
-
-    #lunar-jpg {
-        height: 510px;
-        width: 100%;
-        background: url('../images/lunar.jpg') no-repeat;
-        background-size: cover;
-        
-
-        animation-name: lunar-zoom;
-        animation-duration: 3s;
-        animation-fill-mode:forwards;
-        
-    }
-    /* I got inspired by love running, and used the zoom animation code in my project*/
-    /*zoom for lunar head image*/
-    @keyframes lunar-zoom {
-      from { transform: scale(1);
-
-      }
-      to{ transform: scale(1.05);
-
-      }
+    text-align: left;
 
 
-    }
 
- 
-    
-        
-    
-        
-    /*section 2 div style and p style*/
+}
 
-    #welcome {
-        padding: 20px;
-        line-height: 25px;
-        text-align: center;
-        font-size: 150%;
-        
-        margin-top: 1px;
-    
-       
-    }
-    #welcome p {
-        padding: 10px;
-        margin-top: 5px;
-    }
 
-    /*Timetable*/
 
-    #time {
-        
-        font-size: 100%;
-        
-        display: block;
-        
-    }
 
-    #time h2 {
-        margin-left: 12px;
-    }
 
-    table {
-        width: 20%;
-        height: 120px;
-        
-        
-        text-align: left;
-       
-    }
-    #time, table {
-        padding: 10px;
-    }
-    
-  table td {
-    border-bottom: 1px solid rgb(59, 56, 56);
-    
-    
-  }
-  
 
-     /*footer*/
- footer {
-    height: 100px;
-   
+
+
+
+
+
+#mirror {
+
+    overflow: hidden;
     background-color: #87bba2;
 }
-   .youtube-link li {
-       text-align: center;   
-   }
 
-   .youtube-link i {
-       padding: 10px;
-       margin-top: 15px;
-       font-size: 200%;
-   }
-       
-       
-    
-    /*form*/
 
-    #form-img img {
-        
-        width: 100%;
-        
-        
-        display: block;
-        position: relative;
-        background:no-repeat center cover;
-        
-        
-    }
 
-    
-    
-    
 
-    .form {
-        
-        height: 400px;
-        width: 450px;
-        
-        padding:30px 40px 30px 40px;
-        
-       position: absolute;
-       background-color:#a8d0b6;
-       opacity: 0.9;
-       bottom: 30px;
-       right: 900px;
-       border-radius: 20px;
-       font-size: 140%;
-    
-    }
-    
-    /* label and button*/
 
-    .form input {
-        padding: 5px;
-        
-        
-        
-    }
-    .form div {
-        padding: 10px;
-        display:block;
-        
-    }
-    .form label {
-        opacity: 1;
-        letter-spacing: normal;
-    }
-    
-    #firstname {
-        padding: 10px;
-        margin-left: 35px;
-        border-radius: 20px;
-    }
-    
-    #lastname {
-        margin-left: 35px;
-        padding: 10px;
-        border-radius: 20px;
-    }
-    #email {
-        padding: 10px;
-        border-radius: 20px;
+/*menu navigation links*/
+
+#menunav {
+    letter-spacing: 2px;
+    font-size: 140%;
+
+}
+
+#menunav li {
+    list-style-type: none;
+    float: right;
+    letter-spacing: 5px;
+    margin: 0 20px 30px 0;
+}
+
+
+
+#menunav a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menunav a:hover {
+
+    border-bottom: 2px solid #FF82A9;
+
+
+}
+
+/*lunar-image-main picture*/
+#lunar-out {
+    height: 510px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+
+
+}
+
+#lunar-jpg {
+    height: 510px;
+    width: 100%;
+    background: url('../images/lunar.jpg') no-repeat;
+    background-size: cover;
+
+
+    animation-name: lunar-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+
+/* I got inspired by love running, and used the zoom animation code in my project*/
+/*zoom for lunar head image*/
+@keyframes lunar-zoom {
+    from {
+        transform: scale(1);
+
     }
 
-    #submit {
-        padding: 20px;
-        font-size: 90%;
-        border-radius: 20px;
+    to {
+        transform: scale(1.05);
+
     }
-    
-    #submit:hover {
-        color:#FF82A9 ;
-    }
-   
+
+
+}
+
+
+
+
+
+
+/*section 2 div style and p style*/
+
+#welcome {
+    padding: 20px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 150%;
+
+    margin-top: 1px;
+
+
+}
+
+#welcome p {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/*Timetable*/
+
+#time {
+
+    font-size: 100%;
+
+    display: block;
+
+}
+
+#time h2 {
+    margin-left: 12px;
+}
+
+table {
+    width: 20%;
+    height: 120px;
+
+
+    text-align: left;
+
+}
+
+#time,
+table {
+    padding: 10px;
+}
+
+table td {
+    border-bottom: 1px solid rgb(59, 56, 56);
+
+
+}
+
+
+/*footer*/
+footer {
+    height: 100px;
+
+    background-color: #87bba2;
+}
+
+.youtube-link li {
+    text-align: center;
+}
+
+.youtube-link i {
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 200%;
+}
+
+
+
+/*form*/
+
+#form-img img {
+
+    width: 100%;
+
+
+    display: block;
+    position: relative;
+    background: no-repeat center cover;
+
+
+}
+
+
+
+
+
+.form {
+
+    height: 400px;
+    width: 450px;
+
+    padding: 30px 40px 30px 40px;
+
+    position: absolute;
+    background-color: #a8d0b6;
+    opacity: 0.9;
+    bottom: 30px;
+    right: 900px;
+    border-radius: 20px;
+    font-size: 140%;
+
+}
+
+/* label and button*/
+
+.form input {
+    padding: 5px;
+
+
+
+}
+
+.form div {
+    padding: 10px;
+    display: block;
+
+}
+
+.form label {
+    opacity: 1;
+    letter-spacing: normal;
+}
+
+#firstname {
+    padding: 10px;
+    margin-left: 35px;
+    border-radius: 20px;
+}
+
+#lastname {
+    margin-left: 35px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#email {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#submit {
+    padding: 20px;
+    font-size: 90%;
+    border-radius: 20px;
+}
+
+#submit:hover {
+    color: #FF82A9;
+}
+
 /*diary*/
 
 #monday-image img {
     width: 50%;
-    border-radius:20px;
-    margin: 0 0 10px 20px;
+    border-radius: 20px;
+    margin: 12px 0 10px 30px;
     position: relative;
 }
+
 #monday-talk h2 {
     padding: 2px 0 20px 0;
     color: #4c3549;
@@ -305,33 +321,34 @@ h1, h2 {
 
 #monday-talk {
     width: 500px;
-    
+
     position: absolute;
-    bottom: 100px;
+    bottom: 160px;
     right: 100px;
     font-size: 130%;
     padding: 20px;
     letter-spacing: 2px;
     text-align: left;
     font-weight: bold;
-    color:#4c3549;
+    color: #4c3549;
 }
 
 #thursday-talk h2 {
     padding: 2px 0 30px 0;
-    color: #4c3549;}
+    color: #4c3549;
+}
 
 
 #thursday-image img {
     width: 50%;
-    border-radius:20px;
-    margin: 0 0 10px 20px;
+    border-radius: 20px;
+    margin: 0 0 30px 30px;
     position: relative;
 }
 
 #thursday-talk {
     width: 500px;
-    
+
     position: absolute;
     top: 650px;
     right: 100px;
@@ -340,23 +357,5 @@ h1, h2 {
     letter-spacing: 2px;
     text-align: left;
     font-weight: bold;
-    color:#4c3549;
+    color: #4c3549;
 }
-    
-    
-    
-        
-     
-    
-
-    
-
-
-    
-    
-    
-    
-
-
-
-    
