@@ -139,12 +139,17 @@ h1, h2 {
 
     #welcome {
         padding: 20px;
-        line-height: 50px;
+        line-height: 25px;
         text-align: center;
         font-size: 150%;
         
-        margin-top: 15px;  
+        margin-top: 1px;
+    
        
+    }
+    #welcome p {
+        padding: 10px;
+        margin-top: 5px;
     }
 
     /*Timetable*/
@@ -155,6 +160,10 @@ h1, h2 {
         
         display: block;
         
+    }
+
+    #time h2 {
+        margin-left: 12px;
     }
 
     table {
