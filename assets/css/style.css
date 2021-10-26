@@ -298,18 +298,25 @@ h1, h2 {
     margin-left: 5px;
     position: relative;
 }
+#h2monday {
+    font-size: larger;
+    margin: 4px 0 0 900px;
+    padding: 3px 0 0 0;
+    color: #4c3549;
+}
 
 #monday-talk {
     width: 500px;
     
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
     right: 100px;
     font-size: 130%;
     padding: 20px;
     letter-spacing: 2px;
     text-align: left;
     font-weight: bold;
+    color:#4c3549;
 }
     
     
