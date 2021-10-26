@@ -292,16 +292,14 @@ h1, h2 {
    
 /*diary*/
 
-#monday img {
+#monday-image img {
     width: 50%;
     border-radius:20px;
-    margin-left: 5px;
+    margin: 0 0 10px 20px;
     position: relative;
 }
-#h2monday {
-    font-size: larger;
-    margin: 4px 0 0 900px;
-    padding: 3px 0 0 0;
+#monday-talk h2 {
+    padding: 2px 0 20px 0;
     color: #4c3549;
 }
 
@@ -310,6 +308,32 @@ h1, h2 {
     
     position: absolute;
     bottom: 100px;
+    right: 100px;
+    font-size: 130%;
+    padding: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: bold;
+    color:#4c3549;
+}
+
+#thursday-talk h2 {
+    padding: 2px 0 30px 0;
+    color: #4c3549;}
+
+
+#thursday-image img {
+    width: 50%;
+    border-radius:20px;
+    margin: 0 0 10px 20px;
+    position: relative;
+}
+
+#thursday-talk {
+    width: 500px;
+    
+    position: absolute;
+    top: 650px;
     right: 100px;
     font-size: 130%;
     padding: 20px;
