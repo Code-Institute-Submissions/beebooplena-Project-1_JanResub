@@ -196,17 +196,16 @@ h1, h2 {
     
     /*form*/
 
-    #form-img {
-        height: 100%;
-        width: 100%;
-        
-        
-    }
-
     #form-img img {
+        
         width: 100%;
-        background: no-repeat cover center;
+        
+        
+        display: block;
         position: relative;
+        background:no-repeat center cover;
+        
+        
     }
 
     
