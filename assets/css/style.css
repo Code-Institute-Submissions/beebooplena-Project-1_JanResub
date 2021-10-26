@@ -290,7 +290,27 @@ h1, h2 {
         color:#FF82A9 ;
     }
    
+/*diary*/
 
+#monday img {
+    width: 50%;
+    border-radius:20px;
+    margin-left: 5px;
+    position: relative;
+}
+
+#monday-talk {
+    width: 500px;
+    
+    position: absolute;
+    bottom: 150px;
+    right: 100px;
+    font-size: 130%;
+    padding: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: bold;
+}
     
     
     
