@@ -361,3 +361,14 @@ footer {
     font-weight: bold;
     color: #4c3549;
 }
+
+/*thank you for signing up*/
+
+#thank-you {
+    
+    font-size: 300%;
+    color: #4c3549;
+    text-align: center;
+    line-height: 500px;
+    
+}
