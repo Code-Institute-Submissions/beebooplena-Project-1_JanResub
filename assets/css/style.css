@@ -312,6 +312,7 @@ footer {
     border-radius: 20px;
     margin: 12px 0 10px 30px;
     position: relative;
+    background: no-repeat;
 }
 
 #monday-talk h2 {
@@ -344,6 +345,7 @@ footer {
     border-radius: 20px;
     margin: 0 0 30px 30px;
     position: relative;
+    background: no-repeat;
 }
 
 #thursday-talk {
