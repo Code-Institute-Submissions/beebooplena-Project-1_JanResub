@@ -25,13 +25,21 @@ h1, h2 {
 }
 
     #logolunar {
-        margin: 0 auto;
-        float: none;
-        font-size:350%;
-        width: 450px;
-        display: block;
-        margin-top: 2px;
-       padding-top: 15px;
+        
+        width: 585px;
+        min-height: auto;
+        margin-top: 10px;
+        margin-left: 440px;
+        font-size: 470%;
+        padding-top: 10px;
+        line-height: 70px;
+        
+        
+        
+       
+       text-align: center;
+       
+       
        }
 
        #hidden {
