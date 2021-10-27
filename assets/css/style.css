@@ -372,3 +372,51 @@ footer {
     line-height: 500px;
     
 }
+
+@media screen and (max-width:950px) {
+   #thursday-image, #monday-image {
+       
+       
+       margin: 0;
+       padding: 0;
+       width: 50%;
+       display: block;
+       
+
+       
+   }
+   #media {
+       display:block;
+       width: 100%;
+       line-height: 80px;
+       
+   }
+   #monday-talk, #thursday-talk {
+      
+       
+       width: 50% ;
+       padding: 5px;
+       bottom: 0;
+       display: block;
+       margin-top: 5px;
+      
+       
+   }
+   #menunav, #logolunar {
+       display: block;
+       margin:0;
+       padding: 0;
+   }
+   #logolunar {
+   
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+
+   }
+
+   
+    
+}
