@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Playfair+Display&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -12,11 +12,8 @@ body {
     font-weight: 300;
     color: #605B56;
     background-color: #F0F7EE;
-    line-height:1.4;
-
+    line-height: 1.4;
 }
-
-/*logo and headings*/
 
 h1,
 h2 {
@@ -24,65 +21,33 @@ h2 {
     font-family: nunito, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
-
 }
 
 #logolunar {
-
     width: 100%;
-
     margin-top: 10px;
-
     font-size: 470%;
     padding-top: 15px;
     text-align: center;
-    
-    
-
-
 }
 
 #hidden {
-
     float: none;
     font-size: 350%;
     width: 300px;
     display: block;
     background-color: #F0F7EE;
-
     text-align: left;
-
-
-
 }
 
-
-
-
-
-
-
-
-
-
-
 #mirror {
-
     overflow: hidden;
     background-color: #87bba2;
 }
 
-
-
-
-
-/*menu navigation links*/
-
 #menunav {
     letter-spacing: 2px;
     font-size: 140%;
-
 }
 
 #menunav li {
@@ -92,30 +57,20 @@ h2 {
     margin: 0 20px 30px 0;
 }
 
-
-
 #menunav a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #menunav a:hover {
-
     border-bottom: 2px solid #FF82A9;
-
-
 }
 
-/*lunar-image-main picture*/
 #lunar-out {
     height: 510px;
     width: 100%;
     overflow: hidden;
     position: relative;
-
-
-
 }
 
 #lunar-jpg {
@@ -123,46 +78,26 @@ h2 {
     width: 100%;
     background: url('../images/lunar.jpg') no-repeat;
     background-size: cover;
-
-
     animation-name: lunar-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-
 }
 
-/* I got inspired by love running, and used the zoom animation code in my project*/
-/*zoom for lunar head image*/
 @keyframes lunar-zoom {
     from {
         transform: scale(1);
-
     }
 
     to {
         transform: scale(1.05);
-
     }
-
-
 }
-
-
-
-
-
-
-/*section 2 div style and p style*/
 
 #welcome {
     padding: 20px;
-   
     text-align: center;
     font-size: 150%;
-
     margin-top: 1px;
-
-
 }
 
 #welcome p {
@@ -170,47 +105,32 @@ h2 {
     margin-top: 5px;
 }
 
-/*Timetable*/
-
 #time h2 {
-
     padding: 10px;
     text-align: center;
-
 }
 
-
-
 table {
-    
     height: 120px;
-
-
     text-align: left;
-
 }
 
 #time,
 table {
     padding: 10px;
-    text-align:left;
+    text-align: left;
     margin: 0 auto;
 
 }
 
 table td {
     border-bottom: 1px solid rgb(59, 56, 56);
-
-
 }
 
-
-/*footer*/
 footer {
     height: 100px;
     float: left;
     width: 100%;
-
     background-color: #87bba2;
 }
 
@@ -224,62 +144,37 @@ footer {
     font-size: 200%;
 }
 
-
-
-/*form*/
-
 #form-img img {
-
     width: 100%;
-
-
     display: block;
     position: relative;
-    background: no-repeat center cover;
-
-
+    background: no-repeat center;
 }
 
-
-
-
-
 .form {
-
     height: 400px;
     width: 450px;
-
     padding: 30px 40px 30px 40px;
-
     position: absolute;
     background-color: #a8d0b6;
     opacity: 0.9;
     top: 30px;
     left: 30px;
-
-    
-   
     border-radius: 20px;
     font-size: 140%;
-
 }
-
-/* label and button*/
 
 .form input {
     padding: 5px;
-
-
-
 }
+
 #register {
     position: relative;
-
 }
+
 .form div {
     padding: 10px;
     display: block;
-
 }
 
 .form label {
@@ -314,17 +209,12 @@ footer {
     color: #FF82A9;
 }
 
-/*diary*/
-
-
-
 #monday-talk h2 {
     padding: 2px 0 20px 0;
     color: #4c3549;
 }
 
 #monday-talk {
-   
     letter-spacing: 2px;
     text-align: left;
     font-weight: bold;
@@ -335,15 +225,16 @@ footer {
     letter-spacing: 2px;
     text-align: left;
     font-weight: bold;
-    color: #4c3549;}
-
+    color: #4c3549;
+}
 
 #media {
-    display:block ;
+    display: block;
     width: 100%;
     line-height: 1.4;
     margin-top: 20px;
 }
+
 .diary-day {
     float: right;
     width: 45%;
@@ -353,8 +244,8 @@ footer {
     margin-top: 5px;
     clear: right;
     font-size: 130%;
-
 }
+
 .day-image {
     float: left;
     margin: 20px 0 0 5%;
@@ -362,91 +253,76 @@ footer {
     width: 45%;
     display: block;
 }
+
 .day-image img {
-    width:100%;
+    width: 100%;
     border-radius: 20px;
-    position:relative;
+    position: relative;
     background: no-repeat;
     float: left;
 }
+
 .day {
     width: 100%;
     float: left;
-    padding:20px 0 ;
+    padding: 20px 0;
 }
 
-
-
-
-/*thank you for signing up*/
-
 #thank-you {
-    
     font-size: 300%;
     color: #4c3549;
     text-align: center;
     line-height: 500px;
-    
 }
 
 @media screen and (max-width:900px) {
-   .diary-day{
-       position:inherit;
-       width: 80%;
-       margin-left: 10%;
-       margin-right: 10%;
-       font-size: 100%;
-       padding: 0;
-   }
-   .day-image {
-       width: 90%;
-       margin-left: 5%;
+    .diary-day {
+        position: inherit;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 100%;
+        padding: 0;
+    }
 
-   }
-   .form {
-       position: inherit;
-       width:  auto;
-       padding: 30px 20px;
-       width: 80%;
-   }
-   .form div{
-       padding: 10px 0;
+    .day-image {
+        width: 90%;
+        margin-left: 5%;
+    }
 
-   }
-   .form #firstname,
-   .form #lastname,
-   .form #email {
-       margin-left: 0;
-   }
-   table td {
-       width: 50%;
-   }
-   #menunav {
-       display: block;
-       margin: 0;
-       padding: 0;
-       font-size: 100%;
-   }
-   #logolunar {
-       display: block;
-       margin: 5px 0;
-       padding: 5px 0;
-       text-align: center;
-       font-size: 230%;
-   }
+    .form {
+        position: inherit;
+        width: auto;
+        padding: 30px 20px;
+        width: 80%;
+    }
 
+    .form div {
+        padding: 10px 0;
+    }
 
-   
-   
-       
+    .form #firstname,
+    .form #lastname,
+    .form #email {
+        margin-left: 0;
+    }
 
-       
-  
-      
-       
-      
-  
+    table td {
+        width: 50%;
+    }
 
-   
-    
+    #menunav {
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+    }
+
+    #logolunar {
+        display: block;
+        margin: 5px 0;
+        padding: 5px 0;
+        text-align: center;
+        font-size: 230%;
+    }
 }
