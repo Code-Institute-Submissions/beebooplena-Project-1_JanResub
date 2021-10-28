@@ -172,17 +172,14 @@ h2 {
 
 /*Timetable*/
 
-#time {
-
-    font-size: 100%;
-
-    display: block;
-
-}
-
 #time h2 {
-    margin-left: 12px;
+
+    padding: 10px;
+    text-align: center;
+
 }
+
+
 
 table {
     
@@ -421,42 +418,34 @@ footer {
    .form #email {
        margin-left: 0;
    }
-   
-       
-
-       
+   table td {
+       width: 50%;
    }
-   #media {
-       display:block;
-       width: 100%;
-       line-height: 80px;
-       
-   }
-   #monday-talk, #thursday-talk {
-      
-       
-       width: 50% ;
-       padding: 5px;
-       bottom: 0;
+   #menunav {
        display: block;
-       margin-top: 5px;
-      
-       
-   }
-   #menunav, #logolunar {
-       display: block;
-       margin:0;
+       margin: 0;
        padding: 0;
+       font-size: 100%;
    }
    #logolunar {
-   
-    width: 50%;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-    display: block;
-
+       display: block;
+       margin: 5px 0;
+       padding: 5px 0;
+       text-align: center;
+       font-size: 230%;
    }
+
+
+   
+   
+       
+
+       
+  
+      
+       
+      
+  
 
    
     
