@@ -12,6 +12,7 @@ body {
     font-weight: 300;
     color: #605B56;
     background-color: #F0F7EE;
+    line-height:1.4;
 
 }
 
@@ -29,12 +30,13 @@ h2 {
 
 #logolunar {
 
-    width: 585px;
+    width: 100%;
 
     margin-top: 10px;
-    margin-left: 440px;
+
     font-size: 470%;
     padding-top: 15px;
+    text-align: center;
     
     line-height: 50px;
     text-align: center;
