@@ -198,7 +198,7 @@ table {
     padding: 10px;
     text-align:left;
     margin: 0 auto;
-    
+
 }
 
 table td {
@@ -211,6 +211,8 @@ table td {
 /*footer*/
 footer {
     height: 100px;
+    float: left;
+    width: 100%;
 
     background-color: #87bba2;
 }
