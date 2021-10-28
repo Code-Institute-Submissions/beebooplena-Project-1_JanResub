@@ -257,8 +257,11 @@ footer {
     position: absolute;
     background-color: #a8d0b6;
     opacity: 0.9;
-    bottom: 30px;
-    right: 900px;
+    top: 30px;
+    left: 30px;
+
+    
+   
     border-radius: 20px;
     font-size: 140%;
 
