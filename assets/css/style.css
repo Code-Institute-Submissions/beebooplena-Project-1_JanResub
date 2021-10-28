@@ -38,8 +38,7 @@ h2 {
     padding-top: 15px;
     text-align: center;
     
-    line-height: 50px;
-    text-align: center;
+    
 
 
 }
@@ -157,7 +156,7 @@ h2 {
 
 #welcome {
     padding: 20px;
-    line-height: 25px;
+   
     text-align: center;
     font-size: 150%;
 
@@ -186,7 +185,7 @@ h2 {
 }
 
 table {
-    width: 20%;
+    
     height: 120px;
 
 
@@ -197,6 +196,9 @@ table {
 #time,
 table {
     padding: 10px;
+    text-align:left;
+    margin: 0 auto;
+    
 }
 
 table td {
