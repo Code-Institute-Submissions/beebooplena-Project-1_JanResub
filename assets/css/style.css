@@ -344,6 +344,32 @@ footer {
     line-height: 1.4;
     margin-top: 20px;
 }
+#diary-day {
+    float: right;
+    width: 45%;
+    padding: 5px;
+    bottom: 0;
+    display: block;
+    margin-top: 5px;
+    clear: right;
+    font-size: 130%;
+
+}
+#day-image {
+    float: left;
+    margin: 20px 0 0 5%;
+    padding: 0;
+    width: 45%;
+    display: block;
+}
+.day-image img {
+    width:100%;
+    border-radius: 20px;
+    position:relative;
+    background: no-repeat;
+    float: left;
+}
+
 
 
 
