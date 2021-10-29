@@ -1,5 +1,5 @@
 # Lunar`s life
-This is a site that animal and cat lovers can follow and get updated about Lunar the cat. The written text is the "voice" of Lunar, that reflects over the many different events happening in his everyday life. This site is a site for animal lovers, cat-humour, and cute pictures of Lunar. Many people absolutely love cats, and this site will fill the needs of many cat lovers out there. Lunar is my own cat, and as many cat lovers, I have a lot of pictures of my cat on my phone that I can easily use for Lunar`s site.
+This is a site that animal and cat lovers can follow, and get updated about Lunar the cat. The written text is the "voice" of Lunar, that reflects over the many different events happening in his everyday life. This site is a site for animal lovers, cat-humour, and cute pictures of Lunar. Many people absolutely love cats, and this site will fill the needs of many cat lovers out there. Lunar is my own cat, and as many cat lovers, I have a lot of pictures of my cat on my phone that I can easily use for Lunar`s site.
 
 ![responsive](assets/images/responsive.png)
 
