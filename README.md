@@ -39,7 +39,7 @@ You can find the navigation bar at the top right of the screen. the navigation b
 
 * I have tested browsers like chrome and Microsoft edge to see if the webpage works nicely.
 
-* I have used different screensizes by using devtools device toolbar to see if the webpage work responsive and look nice.
+* I have used different screensizes by using devtools device toolbar to see if the webpage work responsive and look nice. I also checked by using my own samsung S9 mobile phone.
 
 * I have checked if the form is working and that the register button is working. The form requiers an email and entries on first name and last name.
 
