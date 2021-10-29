@@ -1,10 +1,10 @@
 # Lunar`s life
-This is a site where animal and cat lovers can follow and get updated about the cat Lunar. The written text is the "voice" of Lunar, that reflects over his happenings in his everyday life. This site is a place to give people humour, love and cute pictures of Lunar. Many people are drawned to cats and this site will give a lot of cuteness that people find in cats. Lunar is my own cat and as many cat lovers, I have a lot of pictures of my cat on my phone that I can easily use for Lunar`s site.
+This is a site that animal and cat lovers can follow and get updated about Lunar the cat. The written text is the "voice" of Lunar, that reflects over the many different events happening in his everyday life. This site is a site for animal lovers, cat-humour, and cute pictures of Lunar. Many people absolutely love cats, and this site will fill the needs of many cat lovers out there. Lunar is my own cat, and as many cat lovers, I have a lot of pictures of my cat on my phone that I can easily use for Lunar`s site.
 
 ![responsive](assets/images/responsive.png)
 
 ## Features
-Top of the header is the logo and title Lunar`s life. Below the logo you will find a big close up picture of Lunar with a zooming effect, The picture will show the reader that this is about a cat. I choosed calm colours like light green to make it more nature and relaxing to the eye of the reader.
+Top of the header is the logo and title "Lunar`s life". Below the logo you will find a big close up picture of Lunar with a zooming effect. The picture will show the reader that this is about a cat. I choose calm colours like light green to compliment the photographs, and also make the page pleasing to the eye of the reader.
 
 ![home](assets/images/home.png)
 
@@ -88,9 +88,9 @@ Here is the webpage link: https://beebooplena.github.io/Project-1/
 
 * I would like to thank my new mentor Dick Vlaanderen for guiding and helping me on my first html and css project.
 
-* I would like to thank my friend Jon Bowler for his help by learning me how to use media queries.
+* I would like to thank my friend Jon Bowler for his help teaching me how to use media queries.
 
-* I would like to thank the tutors on code institute.
+* I would like to thank the tutors of code institute.
 
 
 
