@@ -1,5 +1,7 @@
 # Lunar`s life
-This is a site that animal and cat lovers can follow, and get updated about Lunar the cat. The written text is the "voice" of Lunar, that reflects over the many different events happening in his everyday life. This site is a site for animal lovers, cat-humour, and cute pictures of Lunar. Many people absolutely love cats, and this site will fill the needs of many cat lovers out there. Lunar is my own cat, and as many cat lovers, I have a lot of pictures of my cat on my phone that I can easily use for Lunar`s site.
+This website is a blog "made by" the cat Lunar. This website will help branding and make Lunar the cat popular. In this webpage, you can follow Lunar in his daily routines, and get regularly updates from his life. This webpage is for people that like cats and would like to read his blog that is written in an informal and in a conversational style. The written text is the "voice" of Lunar, that reflects over the many different events happening in his everyday life. The webpage idea is based on my own cat Lunar, and used the images of him in this webpage. 
+
+Here is the webpage link: https://beebooplena.github.io/Project-1/
 
 ![responsive](assets/images/responsive.png)
 
