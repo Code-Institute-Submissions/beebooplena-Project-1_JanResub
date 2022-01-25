@@ -4,6 +4,38 @@ This website is a blog "made by" the cat Lunar. This website will help branding 
 Here is the webpage link: https://beebooplena.github.io/Project-1/
 
 ![responsive](assets/images/responsive.png)
+## Ui and ux
+## Research
+I know that a lot of people like cats, and you will find a lot of popular youtube videos that is only about cats. Cats are and have been popular animals since the days of ancient Egypt. A webpage blog "written" by a cat, would be an amusing site for people to visit and follow.
+
+## Owner's goal
+* To increase followers that will also sign up for registration.
+* To have more and more people visiting the webpage.
+* In the future the owner would wish the visitors and followers to also visit the youtube link that the webpage has included.
+* To keep updating the webpage and branding Lunar's life.
+
+## User's goals
+* The users want to read the blog and read new entries.
+* The users want to see a clean and a good looking website, and to be able to see many images of Lunar the cat.
+* The user want to be able to sign up for new updates about Lunar's Life.
+* The users want to understand what kind of webpage Lunar's life is
+
+## user stories
+* When visiting the webpage for the first time, the visitor wants to know what kind of webpage this is.
+* when clicking on Diary in the navigation bar, the user wants to see a new page with content related to diary.
+* When clickng on Home button in the navigation bar, the user expect to return to home page or start page.
+* When clicking on the sign up button in the navigation bar, the user wants to see a new page with a form where the user can register.
+* When the user clicks on the youtube link, the user expect to see a youtube video.
+
+## Wireframe and responsive web design
+![home](assets/images/balsamiq-1.png)
+<br>
+
+![diary](assets/images/diary-wireframe.png)
+<br>
+
+![sign-up](assets/images/wireframe-sign-up.png)
+
 
 ## Features
 Top of the header is the logo and title "Lunar`s life". Below the logo you will find a big close up picture of Lunar with a zooming effect. The picture will show the reader that this is about a cat. I choose calm colours like light green to compliment the photographs, and also make the page pleasing to the eye of the reader.
