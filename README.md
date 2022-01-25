@@ -36,40 +36,105 @@ I know that a lot of people like cats, and you will find a lot of popular youtub
 
 ![sign-up](assets/images/wireframe-sign-up.png)
 
+## Design
+
+### Font
+I used a google font called nunito, because it is classic and a bit similar to the font sans serif.
+### Colours
+I used calm colours, light green to compliment the photographs and also make the page pleasing to the eye of the reader.
+
+### Images
+I used nice looking images of my cat Lunar and used them to build a story.
+
+### Icons
+I used different icons from fontawesome.com to make the navigation bar and links more interesting. I choosed icons that
+descibed the titles well.
 
 ## Features
-Top of the header is the logo and title "Lunar`s life". Below the logo you will find a big close up picture of Lunar with a zooming effect. The picture will show the reader that this is about a cat. I choose calm colours like light green to compliment the photographs, and also make the page pleasing to the eye of the reader.
+### Logo
+Top of the header is the logo and title "Lunar`s life". The title has a thicker font to be more visible to the visitor.
+
+### Home Image
+Below the logo you will find a big close up picture of Lunar with a zooming effect. The picture will show the reader that this is about a cat. The zooming effect on the image will make the visitors charmed or drawned to it.
 
 ![home](assets/images/home.png)
 
-**Timetable**
+### Welcome text
+A little welcome text to the visitor, to wish them welcomed and give them a bit more info about the webpage.
+
+### Timetable
 
 Below the main image of Lunar you will find a welcome text from Lunar and a timetable to let the reader know when there are new entries in his diary.
 ![timetable](assets/images/timetable.png)
 
-**Diary page**
+### Diary page
 
 The diary page is where you can read Lunar`s diary, every monday and thursday. When the reader is reading the diary, it is the cat's voice we can read and not the owner.
 ![diary](assets/images/diary.png)
 
-**Sign-up page**
+### Sign-up page
 
 The sign-up page is where the reader can sign up to be updated when new entries are ready. The reader will see a big beautiful picture of Lunar. The form is on the top left of the picture with a little opacity effect on.
 ![sign-up](assets/images/sign-up.png)
 
- **Footer**
+ ### Footer
 
 The footer has a social media link to youtube in a new page, to show some videos of Lunar.
 ![footer](assets/images/footer.png)
 
-### Existing Features
-**Navigation bar**
+
+### Navigation bar
 
 You can find the navigation bar at the top right of the screen. the navigation bar are on all three pages, at the same place with icons, to make it easy and convenient. The navigation bar has hoover css. 
+
+### Future Features
+* Include a page where the visitor can do quiz or small games related to the topic cats
+* Include a page where the owner explains more about the reasons behind to make this website.
+* Include soundbook to the diary page, where whe visitor can hear "Lunar" read his diary entries to his visitors.
+* Include live videos
+* More diary updates
+* Gallery page
+
+## Technology
+I used different technologies to make this webpage:
+
+* Coolors
+* Balsamiq
+* Fontawesome
+* Google Fonts
+* Am I responsive
+* VS-code
+* Git Hub
+* Chrome Dev Tool
+* Css Validator
+* Html Validator
+
+## Languages
+
+* HTML5
+* CSS
+
 
 
 
 ## Testing 
+* I check if the hoover effect works on the buttons in the navigation bar.
+
+* I click on the diary button and check if it takes me to the diary page.
+
+* I click on the sign-up button and check if it takes me to the sign up page.
+
+* I click on the home button and see if it takes me to the landing page.
+
+* I am checking if the zoom effect works on the main image in the landing page.
+
+* I click on the youtube link down in the footer, and see if it takes me to youtube.com
+
+* I check the form on the sign up page. First I check if I can write my name in the input of the first name.
+
+* I check if the lastname input in the form works. 
+
+* I check if the email input in the form works. I see if the email input requires an email.
 
 * I have tested browsers like chrome and Microsoft edge to see if the webpage works nicely.
 
